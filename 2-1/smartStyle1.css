@@ -10,10 +10,6 @@
     background-color: #141f40;
 }
 
-.main {
-    display: flex;
-}
-
 .left {
     float: left;
     height: 250px;
@@ -71,12 +67,13 @@
     }
 
     .left {
-        float: none;
+        float: none; /* 要素の浮動化の解除 */
+        width: 150px;
     }
 
     .right {
+        float: none; /* 要素の浮動化の解除 */
         width: 150px;
-        float: none;
     }
 
     .footer {
